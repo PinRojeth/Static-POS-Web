@@ -1,0 +1,22 @@
+html, body {
+  width: 180vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.nav-link:hover {
+  transform: scale(1.05);
+
+  background-color: #007bff53 !important; /* Change to primary blue */
+  color: white !important; /* Change text color to white */
+  border-radius: 5px; /* Optional: Make edges rounded */
+  transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
